@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCart.Infrastructure\ShoppingCart.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShoppingCart.Utillity\ShoppingCart.Utillity.csproj" />
+  </ItemGroup>
+
+</Project>
